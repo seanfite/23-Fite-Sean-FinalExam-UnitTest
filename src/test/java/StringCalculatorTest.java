@@ -8,7 +8,7 @@ public class StringCalculatorTest {
     public StringCalculator stringCalc;
 
 
-    // base case test
+    // base case test 1
     @Test
     public void test1() {
         int total = stringCalc.add("5, 6");

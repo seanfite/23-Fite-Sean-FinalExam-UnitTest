@@ -9,6 +9,7 @@ public class StringCalculator {
             for (String number : numbersArray) {
                 if (!number.trim().isEmpty()) {
                     int num = Integer.parseInt(number.trim());
+                    // added logic
                     if(num < 0)
                     {
                         throw new IllegalArgumentException("No negative numbers");
